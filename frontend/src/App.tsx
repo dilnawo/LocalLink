@@ -1,5 +1,6 @@
 
 import './App.css'
+import HeroSection from './components/HeroSection'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </div>
 
       </nav>
+      <HeroSection />
     </div>
   )
 }
