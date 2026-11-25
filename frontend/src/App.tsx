@@ -1,12 +1,18 @@
 
+
 import './App.css'
+
 import HeroSection from './components/HeroSection'
+import ServiceCategories from './components/ServiceCategories'
+import FeaturedProviders from './components/FeaturedProviders'
+import WhyChooseUs from './components/WhyChooseUs'
+import CTASection from './components/CTASection'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="app">
       <nav className="navbar">
-
         <a href="#" className="brand">
           <span className="brand-icon">L</span>
           Local<span>Link</span>
@@ -23,9 +29,14 @@ function App() {
           <button className="login-btn">Log In</button>
           <button className="signup-btn">Get Started ↗</button>
         </div>
-
       </nav>
+
       <HeroSection />
+      <ServiceCategories />
+      <FeaturedProviders />
+      <WhyChooseUs />
+      <CTASection />
+      <Footer />
     </div>
   )
 }
